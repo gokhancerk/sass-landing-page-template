@@ -1,0 +1,49 @@
+.container{
+  @apply flex
+  h-40
+  justify-around
+
+  sm:w-full
+  sm:pl-0
+  sm:pr-0
+  sm:flex-col 
+  sm:justify-center
+  
+  xl:ml-40
+  lg:ml-0
+}
+
+.hero_left{
+  @apply w-82
+  h-41
+}
+
+.audience{
+  @apply font-dm_sans
+  font-bold
+  text-dark-black
+  text-audience
+  pt-24
+  sm:text-6xl
+}
+
+.hero_right{
+  @apply sm:mt-14
+}
+
+.arrow{
+  @apply flex ml-10 
+  rounded-full 
+  border-gray-300 
+  border w-14 h-14 
+  justify-center 
+  items-center 
+  cursor-pointer
+
+}
+
+.cta{
+  @apply flex
+  mt-12  
+  sm:justify-center
+}

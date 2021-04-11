@@ -1,0 +1,44 @@
+.header {
+  @apply flex
+  mt-8
+  ml-48
+  mr-44
+  flex-row
+  
+  lg:flex-col
+  lg:mt-0
+  lg:ml-0
+  lg:mr-0
+
+
+  sm:flex-col 
+  sm:mt-0
+  sm:ml-0
+  sm:mr-0
+
+  h-16
+  justify-between
+  items-center
+}
+
+.logo{
+  @apply sm:mb-3 mt-3
+  
+  lg:mb-3
+  lg:mt-3
+}
+
+.nav {
+  @apply space-x-12
+  font-dm_sans
+  font-bold;
+}
+
+.link {
+  @apply text-dark-gray
+  hover:text-dark-black;
+}
+
+.active {
+  @apply border-solid border-b-4 border-blue-700;
+}

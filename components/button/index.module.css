@@ -1,0 +1,59 @@
+.base {
+  @apply text-red-500
+}
+
+.nav_btn {
+  @apply bg-orange
+  text-white
+  rounded-xl
+  font-dm_sans
+  font-bold
+  w-52
+  h-14
+  text-center
+
+  lg:text-2xl
+  lg:rounded-none
+  lg:mt-5
+  sm:h-20
+}
+
+.audience_btn{
+  @apply bg-blue-custom
+  text-white
+  rounded-xl
+  font-bold
+  w-52
+  h-14
+}
+
+.price_btn_container{
+  @apply bg-gray-300
+  w-80
+ 
+  rounded-xl
+  text-dark-black
+  font-bold
+  font-dm_sans
+  text-center
+  text-base
+}
+
+.get_started_white{
+  @apply text-blue-custom
+  bg-white
+  border
+  rounded-xl
+  w-72
+  h-14
+}
+
+.get_started_premium{
+  @apply text-white
+  bg-brown-color
+  border-brown-color
+  rounded-xl
+  w-72
+  h-14
+  font-bold
+}
